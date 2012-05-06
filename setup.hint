@@ -1,0 +1,5 @@
+category: Gnome
+requires: libcryptui0 libdbus-glib_1_2 libgconf2_4 libglib2.0_0 libgnome-keyring0 libgpgme11 libgtk3_0 libintl8 libnotify4 nautilus
+sdesc: "PGP plugin for Nautilus"
+ldesc: "Seahorse nautilus is an extension for nautilus which allows 
+encryption and decryption of OpenPGP files using GnuPG."
