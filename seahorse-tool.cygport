@@ -1,0 +1,18 @@
+ORIG_PN="seahorse-nautilus"
+inherit gnome2
+
+NAME="seahorse-tool"
+VERSION=3.6.1
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="Command-line interface for file en/decryption via Seahorse"
+DESCRIPTION="Seahorse nautilus is an extension for nautilus which allows
+encryption and decryption of OpenPGP files using GnuPG."
+
+PKG_NAMES="seahorse-tool nautilus-seahorse"
+seahorse_tool_CONTENTS="etc/ usr/bin/ usr/share/"
+nautilus_seahorse_SUMMARY="PGP plugin for Nautilus"
+nautilus_seahorse_REQUIRES="seahorse-tool"
+nautilus_seahorse_CONTENTS="usr/lib/nautilus/"
+
+KEEP_LA_FILES="none"
