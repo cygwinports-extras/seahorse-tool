@@ -2,7 +2,7 @@ ORIG_PN="seahorse-nautilus"
 inherit gnome2
 
 NAME="seahorse-tool"
-VERSION=3.6.1
+VERSION=3.8.0
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="Command-line interface for file en/decryption via Seahorse"
